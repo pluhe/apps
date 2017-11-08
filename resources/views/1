@@ -1,0 +1,43 @@
+<!-- jQuery Library -->
+<script type="text/javascript" src="{{ URL::asset('resources/vendors/jquery-3.2.1.min.js') }}"></script>
+<!--materialize js-->
+<script type="text/javascript" src="{{ URL::asset('resources/js/materialize.min.js') }}"></script>
+<!--prism-->
+<script type="text/javascript" src="{{ URL::asset('resources/vendors/prism/prism.js') }}"></script>
+<!--scrollbar-->
+<script type="text/javascript" src="{{ URL::asset('resources/vendors/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+<!--plugins.js - Some Specific JS codes for Plugin Settings-->
+<script type="text/javascript" src="{{ URL::asset('resources/js/plugins.js') }}"></script>
+<!--custom-script.js - Add your own theme custom JS-->
+<script type="text/javascript" src="{{ URL::asset('resources/js/custom-script.js') }}"></script>
+
+
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Basic Tables | Materialize - Material Design Admin Template</title>
+    <!-- Favicons-->
+    <link rel="icon" href="http://localhost/resources/images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="/resources/images/favicon/apple-touch-icon-152x152.png">
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="/resources/images/favicon/mstile-144x144.png">
+    <!-- For Windows Phone -->
+    <!-- CORE CSS-->
+
+    <link rel="stylesheet" href="{{ URL::asset('resources/css/materialize.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('resources/css/style.css') }}">
+    <!-- Custome CSS-->
+    <link rel="stylesheet" href="{{ URL::asset('resources/css/custom/custom.css') }}">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link rel="stylesheet" href="{{ URL::asset('resources/vendors/prism/prism.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('resources/vendors/perfect-scrollbar/perfect-scrollbar.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('resources/vendors/flag-icon/css/flag-icon.min.css') }}">
+</head>
